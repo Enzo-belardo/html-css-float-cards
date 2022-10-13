@@ -27,53 +27,61 @@ article{
     color: white;
     vertical-align: super;
 }
-p:last-child{
+address:last-child{
     color: blue;
 }
 
 .box{
-    width: calc(70%/3) -2rem -2rem ;
-    margin: solid 1px blue;
+    width: calc(80%/3) -1rem ;
+    margin: solid 0.2rem blue;
+    box-shadow: 5px 10px red;
+
  }
 
 .contaneir{
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
     
 .box-one{
     float: left;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     background-color: black;
     width: 300px;
+    margin: .5rem;
  }
  .box-two{
     float: left;
-    margin-bottom: 1rem;  
+    margin-bottom: 2rem;  
     background-color: black;
     width: 300px;
+    margin: .5rem;
     
  }
  .box-three{
     float: left;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     background-color: black;
     width: 300px;
+    margin: .5rem;
  }
  .box-four{
     float: left;
     background-color: black;
     width: 300px;
+    margin: .5rem;
  }
  .box-five{
     float: left;
     background-color: black;
     width: 300px;
+    margin: .5rem;
  }
  .box-six{
     float: left;
     background-color: black;
-    width: 300px;  
+    width: 300px; 
+    margin: .5rem; 
  }
  
 img{
