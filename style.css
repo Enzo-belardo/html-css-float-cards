@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Fredoka;
+}
+
+header>h1{
+    color: red;
+    text-align: center;
+}
+header p{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+article{
+    display: inline-block;
+    margin-left: .3rem;
+    color: white;
+    vertical-align: super;
+}
+p:last-child{
+    color: blue;
+}
+
+.box{
+    width: calc(70%/3) -2rem -2rem ;
+    margin: solid 1px blue;
+ }
+
+.contaneir{
+    width: 70%;
+    margin: auto;
+}
+    
+.box-one{
+    float: left;
+    margin-bottom: 1rem;
+    background-color: black;
+    width: 300px;
+ }
+ .box-two{
+    float: left;
+    margin-bottom: 1rem;  
+    background-color: black;
+    width: 300px;
+    
+ }
+ .box-three{
+    float: left;
+    margin-bottom: 1rem;
+    background-color: black;
+    width: 300px;
+ }
+ .box-four{
+    float: left;
+    background-color: black;
+    width: 300px;
+ }
+ .box-five{
+    float: left;
+    background-color: black;
+    width: 300px;
+ }
+ .box-six{
+    float: left;
+    background-color: black;
+    width: 300px;  
+ }
+ 
+img{
+    width: 5rem;
+}
