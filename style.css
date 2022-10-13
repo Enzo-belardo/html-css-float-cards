@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: Fredoka;
-}
 
+.body{
+    font-family: 'Fredoka', sans-serif;
+}
 header>h1{
     color: red;
     text-align: center;
+    margin-bottom: 2rem;
 }
 header p{
     text-align: center;
@@ -25,8 +26,13 @@ article{
     display: inline-block;
     margin-left: .3rem;
     color: white;
-    vertical-align: super;
+    vertical-align:super;
+    line-height: 1.5rem;
 }
+h2:first-child{
+    font-size: 1.2rem;
+}
+
 address:last-child{
     color: blue;
 }
