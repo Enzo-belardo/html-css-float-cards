@@ -40,7 +40,7 @@ address:last-child{
     color: rgb(54, 134, 220);
 }
 
-.box{
+.box:hover{
     width: calc(80%/3) ;
     margin: solid 0.2rem blue;
     box-shadow: 5px 10px red;
