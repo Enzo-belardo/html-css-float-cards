@@ -4,17 +4,20 @@
     box-sizing: border-box;
 }
 
-.body{
+body{
     font-family: 'Fredoka', sans-serif;
+    background-image:url(./img/team2.jpeg);
+    background-size: cover;
 }
 header>h1{
     color: red;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 header p{
     text-align: center;
     margin-bottom: 3rem;
+    font-weight: bold;
 }
 
 .clearfix::after{
@@ -34,14 +37,13 @@ h2:first-child{
 }
 
 address:last-child{
-    color: blue;
+    color: rgb(54, 134, 220);
 }
 
 .box{
-    width: calc(80%/3) -1rem ;
+    width: calc(80%/3) ;
     margin: solid 0.2rem blue;
     box-shadow: 5px 10px red;
-
  }
 
 .contaneir{
